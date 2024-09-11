@@ -8,7 +8,7 @@ package site
 						page: {
 							cache: {
 								multi_step: {
-									hash:       "F69FCOMRLGBJ5BGV9LVPJ4RQKOU9O2LKMHAMLFFAVJ6FNPLGJAUG===="
+									hash:       "IE41QBL9AJ4TU9LP9FHSTR4UH3VLMGOFKH4G2I9LN9F0R4ADH5H0===="
 									scriptHash: "G0LEKBT1HLM270M1N5003OPF4A94HN2NTA0H9RAB9285M13KE34G===="
 									steps: [{
 										doc:      ""
@@ -68,13 +68,13 @@ package site
 												Flags:
 												  -n, --dry-run          only run simulation
 												  -f, --force            force overwriting existing files
-												  -o, --outfile string   filename or - for stdout with optional file prefix (run 'cue filetypes' for more info)
+												  -o, --outfile string   filename or - for stdout with optional file prefix (run 'cue help filetypes' for more info)
 
 												Global Flags:
 												  -E, --all-errors   print all available errors
 												  -i, --ignore       proceed in the presence of errors
 												  -s, --simplify     simplify output
-												      --strict       report errors for lossy mappings
+												      --strict       report errors for lossy mappings (deprecated: use "jsonschema+strict:" filetype instead; see cue help filetypes)
 												      --trace        trace computation
 												  -v, --verbose      print information about progress
 

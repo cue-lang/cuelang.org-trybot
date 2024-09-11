@@ -8,18 +8,18 @@ package site
 						page: {
 							cache: {
 								upload: {
-									removed:                 "AwayA7VLc3x0NQcwBbR3N/yDN1yvjxuza1RFHIcLMUk="
-									changes:                 "MH/SZIUjv6iZDLSjHUl8Zvd70zxzQqbWhY/fQ+9ToMU="
-									"changes: updated file": "5q54mdOHvC3CAIG+E9+5kcgd+wGt8hC0hb/qkNy5nyU="
-									"references: broken":    "N/P9ND8qDAs3l3oRhN5A/uB3LWdm3aqbZT7WbyHMtzA="
-									"references: fixed":     "Jc1LNieKdChmGO2APi80Fz+2pNedU2krGuTpue+kOIw="
+									removed:                 "ajCmwj4umXU0b/0XfRQjy95sDv/siJfn5wQViAO+Scg="
+									changes:                 "PysQ3NVk/5GamuOKJhefTybtK3wFFqBbbkqDZP0lR90="
+									"changes: updated file": "K5oqvz8+hd4WCrtmsU8WWSc7KSZuToC0cBsvY3juO8c="
+									"references: broken":    "47OWw3d1m1+OxYWNnqHtN4LOI89u1YzmnCagMIUChuQ="
+									"references: fixed":     "cJprLu3+qQOtAQVLVXJgoImf2fxILk8zAIi/HyjadPc="
 								}
 								multi_step: {
-									hash:       "5TUNJP25KTISKAO772E7L7TR8J4RIVTOOKGQUUDD3UUGIE0ONOE0===="
-									scriptHash: "SG968CL2ID2LKMV9L2G9187V5QJAHTMHFHA80T860N0LRTOHIJDG===="
+									hash:       "KRKB19H3NDSMV4MJ83V2QV9M6NFLRIEGP2NHV5HGVBGIQU4G3Q4G===="
+									scriptHash: "7FL7D91N2M4QVR8TTD7NP9AVG4T7L6NRD8CKOJSPQSAJM97NMH8G===="
 									steps: [{
 										doc:      ""
-										cmd:      "export PATH=/cues/v0.11.0-alpha.1:$PATH"
+										cmd:      "export PATH=/cues/v0.11.0-alpha.1.0.20240911091416-d34eb577f82d:$PATH"
 										exitCode: 0
 										output:   ""
 									}, {

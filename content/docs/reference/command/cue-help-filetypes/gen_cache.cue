@@ -8,7 +8,7 @@ package site
 						page: {
 							cache: {
 								multi_step: {
-									hash:       "L2K4OJU2QJ375N94UQPU6UD9RCS9U0GG2K3S20KP9KG1I79OE6VG===="
+									hash:       "J9EEKU5FIJGV2N5AUA9CNMSPPKTMUJQHPBIUH4PPS41G7FO6PHOG===="
 									scriptHash: "EASO9K634FKPK5IIIHBL47VOL5GA1NH1AN45JG3TAEOK020F497G===="
 									steps: [{
 										doc:      ""
@@ -75,6 +75,20 @@ package site
 												                not require any evaluation.
 												    graph       Like data, but allow references.
 												    schema      Export data and definitions.
+
+												The following tags are only valid in combination with other tags,
+												and influence the functioning of the codec. The tag they are
+												valid with is mentioned in parentheses at the end.
+
+												    strictFeatures\treport errors for lossy mappings. Enabled by default (jsonschema)
+												    strictKeywords\treport errors for unknown keywords (jsonschema)
+												    strict\t\t\treport errors for either of the above (jsonschema)
+
+												The above flags also accept a boolean flag value (e.g. true, 1, false, 0)
+												to set them explicitly. For example, to ignore unimplemented JSON Schema
+												features rather than giving an error:
+
+												\tjsonschema+strictFeatures=0
 
 												Many commands also support the --out and --outfile/-o flags.
 												The --out flag specifies the output type using a qualifier
